@@ -75,7 +75,7 @@ class spam:
                     if probablity_spam[i]>0:
                         spam+=math.log10(float(probablity_spam[i])+1)
                     if probablity_nonspam[i]>0:
-                        nonspam+=math.log10(float(probablity_nonspam[i])+1kiyk)
+                        nonspam+=math.log10(float(probablity_nonspam[i])+1)
                 i+=1
 
             if spam> nonspam:
